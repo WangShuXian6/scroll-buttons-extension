@@ -1,0 +1,13 @@
+<!-- scroll-buttons-icon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+    <!-- 圆形背景 -->
+    <circle cx="64" cy="64" r="60" fill="#007BFF" stroke="none"/>
+    
+    <!-- 向上箭头 -->
+    <polygon points="64,30 54,50 74,50" fill="white"/>
+    <rect x="62" y="50" width="4" height="30" fill="white"/>
+    
+    <!-- 向下箭头 -->
+    <polygon points="64,98 54,78 74,78" fill="white"/>
+    <rect x="62" y="78" width="4" height="30" fill="white"/>
+</svg>

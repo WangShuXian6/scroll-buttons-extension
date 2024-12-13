@@ -1,0 +1,30 @@
+#scroll-down-button, #scroll-up-button {
+    position: fixed;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 123, 255, 0.8);
+    color: white;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 10000;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: background-color 0.3s;
+}
+
+#scroll-down-button:hover, #scroll-up-button:hover {
+    background-color: rgba(0, 123, 255, 1);
+}
+
+#scroll-down-button {
+    top: 50%;
+    transform: translateY(-60px);
+}
+
+#scroll-up-button {
+    top: 50%;
+    transform: translateY(60px);
+}
